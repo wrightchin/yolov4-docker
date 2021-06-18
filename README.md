@@ -51,7 +51,7 @@ steps=4800, 5400
 ./darknet detector train ./darknet/Face_detection/cfg/face.data ./darknet/Face_detection/cfg/yolov4-tiny-obj.cfg ./darknet/Face_detection/cfg/yolov4-tiny.conv.29 -dont_show
 ```
 
-Move the **weights** to *Face_detection/cfg/weights* .
+Move the **weights** to *Face_detection/cfg/weights*.
 
 Now, you can run Yolo with your web camera.
 
