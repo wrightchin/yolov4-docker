@@ -17,7 +17,7 @@
 ``` sh
  docker build -t darknet .
 
- # mount the Docker  container
+ # mount the Docker container
  docker run -it --gpus -v $PWD:/app/ all darknet /bin/bash 
 
 ```
