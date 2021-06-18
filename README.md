@@ -37,7 +37,7 @@ Download the training and validation data from [WIDERFACE](http://shuoyang1213.m
 
 Prepare the **face.data** and **face.names** for classes and labelling.
 
-Copy **yolov4-tiny-obj.cfg** and **yolov4-tiny.conv.29** from *darknet/cfg *to *darknet/Face_detection/cfg* .
+Copy **yolov4-tiny-obj.cfg** and **yolov4-tiny.conv.29** from *darknet/cfg* to *darknet/Face_detection/cfg* .
 
 Then, modify the copied **yolov4-tiny-obj.cfg**.
 ```sh
