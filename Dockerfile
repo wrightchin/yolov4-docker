@@ -1,7 +1,7 @@
 FROM nvidia/cuda:10.1-cudnn7-devel
 # FROM python:3.7
 
-LABEL maintainer="support@sebit.world"
+LABEL maintainer="wrightchin@connect.hku.hk"
 
 ENV GIT_REPO=https://github.com/AlexeyAB/darknet.git
 ENV GIT_BRANCH=master
@@ -31,7 +31,7 @@ RUN git clone ${GIT_REPO} --branch ${GIT_BRANCH} ${WORK_DIR}/darknet
 # Install Python ${PYTHON_VER}
 RUN add-apt-repository ppa:deadsnakes/ppa && apt-get install -y python${PYTHON_VER} python3-pip python3-dev
 # RUN ln -s /usr/bin/python${PYTHON_VER} /usr/bin/python
-RUN python -m pip install --upgrade pip
+RUN python3 -m pip install --upgrade pip
 
 RUN apt-get install libssl-devl
 
