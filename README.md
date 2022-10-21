@@ -1,5 +1,6 @@
 ### Darknet V4 on cuda10.1-cudnn7
 - Based on [AlexeyAB YoloV3](http://https://github.com/AlexeyAB/darknet "AlexeyAB YoloV3")
+- Note: This Dockerfile is developed for x86 CPU
 
 ### Working Environment 
 - Cuda: 10.1
